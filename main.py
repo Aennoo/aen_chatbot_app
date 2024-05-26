@@ -5,8 +5,8 @@ import google.generativeai as gen_ai
 
 # Configure Streamlit page settings
 st.set_page_config(
-    page_title="Chat with Gemini-Pro!",
-    page_icon=":brain:",  # Favicon emoji
+    page_title="Hello! Meet Aen, your AI Chatbot Companion",
+    page_icon=":robot:",  # Favicon emoji
     layout="centered",  # Page layout option
 )
 
@@ -29,7 +29,7 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 Gemini Pro - ChatBot")
+st.title("🤖 Aen Chatbot")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
