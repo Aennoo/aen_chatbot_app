@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Set up Google Gemini-Pro AI model
-genai.configure(api_key= st.secrets["GOOGLE_API_KEY"])
+gen_ai.configure(api_key= st.secrets["GOOGLE_API_KEY"])
 model = gen_ai.GenerativeModel('gemini-pro')
 
 
